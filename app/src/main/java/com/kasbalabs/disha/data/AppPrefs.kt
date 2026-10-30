@@ -1,8 +1,8 @@
-package com.disha.career.data
+package com.kasbalabs.disha.data
 
 import android.content.Context
-import com.disha.career.model.Lang
-import com.disha.career.model.Profile
+import com.kasbalabs.disha.model.Lang
+import com.kasbalabs.disha.model.Profile
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 

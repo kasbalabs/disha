@@ -1,4 +1,4 @@
-package com.disha.career.ui.screens
+package com.kasbalabs.disha.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -14,8 +14,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.disha.career.model.Lang
-import com.disha.career.ui.Strings
+import com.kasbalabs.disha.model.Lang
+import com.kasbalabs.disha.ui.Strings
 
 @Composable
 fun WelcomeScreen(

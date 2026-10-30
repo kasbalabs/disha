@@ -1,11 +1,11 @@
-package com.disha.career.engine
+package com.kasbalabs.disha.engine
 
-import com.disha.career.data.ContentRepository
-import com.disha.career.model.Budget
-import com.disha.career.model.Profile
-import com.disha.career.model.QuestionKind
-import com.disha.career.model.Stage
-import com.disha.career.model.Stream
+import com.kasbalabs.disha.data.ContentRepository
+import com.kasbalabs.disha.model.Budget
+import com.kasbalabs.disha.model.Profile
+import com.kasbalabs.disha.model.QuestionKind
+import com.kasbalabs.disha.model.Stage
+import com.kasbalabs.disha.model.Stream
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

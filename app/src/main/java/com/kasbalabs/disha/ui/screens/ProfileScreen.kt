@@ -1,4 +1,4 @@
-package com.disha.career.ui.screens
+package com.kasbalabs.disha.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -15,11 +15,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.disha.career.model.Budget
-import com.disha.career.model.Profile
-import com.disha.career.model.Stage
-import com.disha.career.model.Stream
-import com.disha.career.ui.Strings
+import com.kasbalabs.disha.model.Budget
+import com.kasbalabs.disha.model.Profile
+import com.kasbalabs.disha.model.Stage
+import com.kasbalabs.disha.model.Stream
+import com.kasbalabs.disha.ui.Strings
 
 @Composable
 fun ProfileScreen(s: Strings, initial: Profile?, onSubmit: (Profile) -> Unit) {

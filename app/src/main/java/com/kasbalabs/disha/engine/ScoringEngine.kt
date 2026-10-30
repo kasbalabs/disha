@@ -1,10 +1,10 @@
-package com.disha.career.engine
+package com.kasbalabs.disha.engine
 
-import com.disha.career.model.Career
-import com.disha.career.model.Profile
-import com.disha.career.model.Question
-import com.disha.career.model.QuestionKind
-import com.disha.career.model.Stage
+import com.kasbalabs.disha.model.Career
+import com.kasbalabs.disha.model.Profile
+import com.kasbalabs.disha.model.Question
+import com.kasbalabs.disha.model.QuestionKind
+import com.kasbalabs.disha.model.Stage
 import kotlin.math.roundToInt
 import kotlin.math.sqrt
 

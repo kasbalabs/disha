@@ -1,10 +1,10 @@
-package com.disha.career.ui
+package com.kasbalabs.disha.ui
 
-import com.disha.career.engine.Reason
-import com.disha.career.model.Budget
-import com.disha.career.model.Lang
-import com.disha.career.model.Stage
-import com.disha.career.model.Stream
+import com.kasbalabs.disha.engine.Reason
+import com.kasbalabs.disha.model.Budget
+import com.kasbalabs.disha.model.Lang
+import com.kasbalabs.disha.model.Stage
+import com.kasbalabs.disha.model.Stream
 
 /**
  * UI text for both languages. Kept in Kotlin rather than strings.xml so the

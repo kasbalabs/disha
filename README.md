@@ -15,9 +15,9 @@ INTERNET permission.
 | --- | --- |
 | Questions (18 interest + 6 aptitude), Hindi and English | `app/src/main/assets/questions.json` |
 | 13 careers with roadmap, exams, earnings, AI outlook | `app/src/main/assets/careers.json` |
-| Scoring engine | `app/src/main/java/com/disha/career/engine/ScoringEngine.kt` |
-| All UI text in both languages | `app/src/main/java/com/disha/career/ui/L10n.kt` |
-| Google Play one-time unlock | `app/src/main/java/com/disha/career/billing/BillingManager.kt` |
+| Scoring engine | `app/src/main/java/com/kasbalabs/disha/engine/ScoringEngine.kt` |
+| All UI text in both languages | `app/src/main/java/com/kasbalabs/disha/ui/L10n.kt` |
+| Google Play one-time unlock | `app/src/main/java/com/kasbalabs/disha/billing/BillingManager.kt` |
 
 **Scoring:** each career gets a match score from three parts:
 - **60% interest fit:** how closely the student's interest answers (Builder, Thinker, Creator, Helper, Leader, Organiser) match the career's interest weights.
@@ -55,7 +55,7 @@ once, or use **File → Sync Project with Gradle Files**.
 2. Create an in-app product with ID **`full_report`** (a one-time product, not a subscription).
 3. Set its price. Check the lowest INR price Play allows; ₹9 is the planned price. If you change it, update `FALLBACK_PRICE` in `L10n.kt`.
 4. Add your Gmail as a license tester, then upload a build to the internal testing track. Real purchase flows only work on builds installed from Play.
-5. Replace the placeholder icon in `res/drawable/ic_launcher.xml`. The app name "Disha" and the package name `com.disha.career` are placeholders too: check that they aren't already taken.
+5. Replace the placeholder icon in `res/drawable/ic_launcher.xml`. The app is published by **Kasba Labs** under the package `com.kasbalabs.disha`, which can never change once published.
 
 **Things to know about payments:**
 - **Google's cut:** Play keeps about 15% of each sale.

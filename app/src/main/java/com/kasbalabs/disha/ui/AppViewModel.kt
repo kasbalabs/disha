@@ -1,14 +1,14 @@
-package com.disha.career.ui
+package com.kasbalabs.disha.ui
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import com.disha.career.data.AppPrefs
-import com.disha.career.data.ContentRepository
-import com.disha.career.engine.AssessmentResult
-import com.disha.career.engine.ScoringEngine
-import com.disha.career.model.Lang
-import com.disha.career.model.Profile
-import com.disha.career.model.Question
+import com.kasbalabs.disha.data.AppPrefs
+import com.kasbalabs.disha.data.ContentRepository
+import com.kasbalabs.disha.engine.AssessmentResult
+import com.kasbalabs.disha.engine.ScoringEngine
+import com.kasbalabs.disha.model.Lang
+import com.kasbalabs.disha.model.Profile
+import com.kasbalabs.disha.model.Question
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -1,4 +1,4 @@
-package com.disha.career.ui.screens
+package com.kasbalabs.disha.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -14,12 +14,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.disha.career.engine.CareerMatch
-import com.disha.career.engine.AssessmentResult
-import com.disha.career.model.Budget
-import com.disha.career.model.Lang
-import com.disha.career.model.Stage
-import com.disha.career.ui.Strings
+import com.kasbalabs.disha.engine.CareerMatch
+import com.kasbalabs.disha.engine.AssessmentResult
+import com.kasbalabs.disha.model.Budget
+import com.kasbalabs.disha.model.Lang
+import com.kasbalabs.disha.model.Stage
+import com.kasbalabs.disha.ui.Strings
 
 /** How many careers the paid report covers. */
 private const val REPORT_SIZE = 8

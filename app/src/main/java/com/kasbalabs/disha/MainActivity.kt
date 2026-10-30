@@ -1,4 +1,4 @@
-package com.disha.career
+package com.kasbalabs.disha
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,10 +7,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.compose.runtime.getValue
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.disha.career.billing.BillingManager
-import com.disha.career.ui.AppViewModel
-import com.disha.career.ui.DishaApp
-import com.disha.career.ui.theme.DishaTheme
+import com.kasbalabs.disha.billing.BillingManager
+import com.kasbalabs.disha.ui.AppViewModel
+import com.kasbalabs.disha.ui.DishaApp
+import com.kasbalabs.disha.ui.theme.DishaTheme
 
 class MainActivity : ComponentActivity() {
     private val vm: AppViewModel by viewModels()

@@ -1,4 +1,4 @@
-package com.disha.career.model
+package com.kasbalabs.disha.model
 
 import kotlinx.serialization.Serializable
 

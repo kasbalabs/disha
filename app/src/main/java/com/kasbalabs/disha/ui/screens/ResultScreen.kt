@@ -1,4 +1,4 @@
-package com.disha.career.ui.screens
+package com.kasbalabs.disha.ui.screens
 
 import android.content.Intent
 import android.widget.Toast
@@ -27,14 +27,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.disha.career.engine.AssessmentResult
-import com.disha.career.engine.CareerMatch
-import com.disha.career.model.Lang
-import com.disha.career.ui.FALLBACK_PRICE
-import com.disha.career.ui.PERSONA_EMOJI
-import com.disha.career.ui.Strings
+import com.kasbalabs.disha.engine.AssessmentResult
+import com.kasbalabs.disha.engine.CareerMatch
+import com.kasbalabs.disha.model.Lang
+import com.kasbalabs.disha.ui.FALLBACK_PRICE
+import com.kasbalabs.disha.ui.PERSONA_EMOJI
+import com.kasbalabs.disha.ui.Strings
 
-private const val PLAY_LINK = "https://play.google.com/store/apps/details?id=com.disha.career"
+private const val PLAY_LINK = "https://play.google.com/store/apps/details?id=com.kasbalabs.disha"
 
 @Composable
 fun ResultScreen(

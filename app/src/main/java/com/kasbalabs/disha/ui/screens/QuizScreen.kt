@@ -1,4 +1,4 @@
-package com.disha.career.ui.screens
+package com.kasbalabs.disha.ui.screens
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.LinearProgressIndicator
@@ -7,10 +7,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
-import com.disha.career.model.Lang
-import com.disha.career.model.Question
-import com.disha.career.model.QuestionKind
-import com.disha.career.ui.Strings
+import com.kasbalabs.disha.model.Lang
+import com.kasbalabs.disha.model.Question
+import com.kasbalabs.disha.model.QuestionKind
+import com.kasbalabs.disha.ui.Strings
 
 @Composable
 fun QuizScreen(

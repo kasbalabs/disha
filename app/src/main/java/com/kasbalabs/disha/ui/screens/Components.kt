@@ -1,4 +1,4 @@
-package com.disha.career.ui.screens
+package com.kasbalabs.disha.ui.screens
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
@@ -20,9 +20,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.disha.career.engine.CareerMatch
-import com.disha.career.model.Lang
-import com.disha.career.ui.Strings
+import com.kasbalabs.disha.engine.CareerMatch
+import com.kasbalabs.disha.model.Lang
+import com.kasbalabs.disha.ui.Strings
 
 /** Scrollable page with the app's standard padding and spacing. */
 @Composable

@@ -1,8 +1,8 @@
-package com.disha.career.data
+package com.kasbalabs.disha.data
 
 import android.content.Context
-import com.disha.career.model.Career
-import com.disha.career.model.Question
+import com.kasbalabs.disha.model.Career
+import com.kasbalabs.disha.model.Question
 import kotlinx.serialization.json.Json
 
 /** All content ships inside the APK under assets/, so the app needs no server. */

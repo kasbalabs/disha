@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.disha.career"
+    namespace = "com.kasbalabs.disha"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.disha.career"
+        applicationId = "com.kasbalabs.disha"
         // Android 7.0+: covers almost every budget phone still in use.
         minSdk = 24
         // Play requires new apps to target a recent API level; raise this each August.

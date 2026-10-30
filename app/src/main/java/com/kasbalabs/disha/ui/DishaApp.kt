@@ -1,4 +1,4 @@
-package com.disha.career.ui
+package com.kasbalabs.disha.ui
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Box
@@ -9,12 +9,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.disha.career.model.Stage
-import com.disha.career.ui.screens.ProfileScreen
-import com.disha.career.ui.screens.QuizScreen
-import com.disha.career.ui.screens.ReportScreen
-import com.disha.career.ui.screens.ResultScreen
-import com.disha.career.ui.screens.WelcomeScreen
+import com.kasbalabs.disha.model.Stage
+import com.kasbalabs.disha.ui.screens.ProfileScreen
+import com.kasbalabs.disha.ui.screens.QuizScreen
+import com.kasbalabs.disha.ui.screens.ReportScreen
+import com.kasbalabs.disha.ui.screens.ResultScreen
+import com.kasbalabs.disha.ui.screens.WelcomeScreen
 
 @Composable
 fun DishaApp(
